@@ -1,0 +1,102 @@
+body {
+   background-image: url(./img/wallpaperflare.com_wallpaper.jpg);
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 40px;
+  }
+  
+  .container {
+    min-width: 30rem;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+  
+  .container .container-head {
+    text-align: center;
+  }
+  
+  .container .container-head h3 {
+    color: #fff;
+  }
+  
+  .container .convert-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .container .convert-box .box {
+    margin: 1rem;
+  }
+  
+  .container .convert-box .box p {
+    color: honeydew;
+  }
+  
+  .container .convert-box .box input {
+    height:40px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+   
+  }
+  
+  .container .convert-box .box select {
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height:60px;
+    font-size: 18px;
+  }
+  
+  .container .convert-btn {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .container .convert-btn input {
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    background: rgba(117, 131, 117, 0.414);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px ;
+    border: solid 1px rgb(196, 189, 189);
+  }
+  
+  .container .convert-btn input:hover {
+    cursor: pointer;
+    background: rgb(71, 73, 67);
+  }
+  
+  .container .display-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 70px;
+    border: solid rgb(196, 189, 189) 1px;
+    background-color: rgba(71, 73, 67, 0.656);
+    border-radius: 20px ;
+    color: #fff;
+    font-size: 35px;
+    padding:20px;
+  }
+ 
